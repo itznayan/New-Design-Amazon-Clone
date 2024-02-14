@@ -18,6 +18,8 @@
 
 
 
+
+
 body{
      
     background-color: #03071e;  
@@ -41,6 +43,7 @@ body{
     margin: 1%;
     padding-top:15px ;
     font-size: 20px;
+    box-shadow: 1px 12px 20px #DAC4F7;
 
 }
 
@@ -158,6 +161,63 @@ footer{
     
 }
 
+@media(max-width:600px){
+    
+    *{
+        box-sizing: border-box;
+    }
+    
+    
+    body{
+     position: absolute;
+     margin: 5px;
+     background-color: aliceblue;
+    
+    }
+
+    label a{
+        position: relative;
+        bottom: 25px;
+    }
+    
+
+     .panel{
+        position: relative;
+        display: flexbox;
+        justify-content: center;
+        top: 100px;
+        width: 80vw;
+        padding: 10px;
+        height: 80px;
+        justify-content: space-around;
+
+    }
+
+
+    .panel p{
+        padding: 1px;
+        margin: 7%;
+    }
+
+    .hero-section{
+        position: absolute;
+        top: 80px;
+    
+    }
+
+    .shop-section{
+        display: flex;
+        position: relative;
+        top: 400px;
+    }
+
+    footer{
+        position: relative;
+        top: 600px;
+    }
+
+    
+}
 
 
     
